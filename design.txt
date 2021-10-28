@@ -2,9 +2,9 @@ Auction Application
 All users must pay in a currency created by the class, Wolvercoin
 
 Auctions:
-Auctions can be created by only the Wolvercoin main user and can only be for NFT's
-NFT Images must be png, jpeg, or gif file type
-Once the auction is complete, the winning user is transferred the NFT
+    Auctions can be created by only the Wolvercoin main user and can only be for NFT's
+    NFT Images must be png, jpeg, or gif file type
+    Once the auction is complete, the winning user is transferred the NFT
 
 Winning an Auction:
 The auction will store the highest two bids and their bid amount
