@@ -12,9 +12,24 @@ The highest bidder will win the auction when the auction time expires
     Auctions will end at a given block # instead of time
     At the end of the given block the user will have to claim their auction prize
     
+Bidding on an Auction:
+    Auctions will have an 'active period' under which they are taking place for a single item
+    Multipe acutions can happen at the same time
+    A user temporarily looses their auction bid (the money they bid) when they bid on an auction
+    When a higher bid is placed on the auction, the 2nd place bid is returned their amount
+    Every auction will end at a block
+        Bidding in an auction will extend the lifetime of the auction by ~ 5 minutes (but in blocks)
+
+    
+Types of Auctions:
+    Two types of auctions are available, traditional and 'dutch' auctions
+    Dutch auctions start at a price and continue to decrease by 0.1 per 100 blocks until they are sold
+    They can go negative, where you will GAIN coins if you take it
+    
 Promoting Usage:
     The second highest bidder will get 25% of the auction win price
     The rest of the auction will go to anyone staking their Wolvercoin
+    Each auction MUST have a minimum bid so that people don't raise a bid by something silly like 0.000000000001
     
 Staking to Claim Auction Rewards:
     Users have the option to stake their wolvercoin, giving custody to the Wolvercoin 'contract' code
