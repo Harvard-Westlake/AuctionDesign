@@ -1,0 +1,21 @@
+Auction Application
+All users must pay in a currency created by the class, Wolvercoin
+
+Auctions:
+Auctions can be created by only the Wolvercoin main user and can only be for NFT's
+NFT Images must be png, jpeg, or gif file type
+Once the auction is complete, the winning user is transferred the NFT
+
+Winning an Auction:
+The auction will store the highest two bids and their bid amount
+The highest bidder will win the auction when the auction time expires
+    Auctions will end at a given block # instead of time
+    At the end of the given block the user will have to claim their auction prize
+    
+Promoting Usage:
+    The second highest bidder will get 25% of the auction win price
+    The rest of the auction will go to anyone staking their Wolvercoin
+    
+Staking to Claim Auction Rewards:
+    Users have the option to stake their wolvercoin, giving custody to the Wolvercoin 'contract' code
+    When doing so they will be elligible for APR returns distributed from auctions finished
